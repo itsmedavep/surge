@@ -182,7 +182,7 @@ SurgeGUIEditor::SurgeGUIEditor(void* effect, SurgeSynthesizer* synth) : super(ef
        displayFont = minifont;
        patchNameFont = patchfont;
        lfoTypeFont = lfofont;
-       aboutfont = aboutfont;
+       aboutFont = aboutfont;
 
    }
 }

@@ -42,7 +42,7 @@ void initializeRuntimeFont()
     displayFont = minifont;
     patchNameFont = patchfont;
     lfoTypeFont = lfofont;
-    aboutfont = aboutfont;
+    aboutFont = aboutfont;
 }
 
 }
