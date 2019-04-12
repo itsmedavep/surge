@@ -23,6 +23,7 @@
 #include "UserInteractions.h"
 #include "DisplayInfo.h"
 #include "UserDefaults.h"
+#include "../SurgeStorage.h"
 
 #include <iostream>
 #include <iomanip>
@@ -1720,12 +1721,13 @@ int32_t SurgeGUIEditor::controlModifierClicked(CControl* control, CButtonState b
                   currentSub =
                       new COptionMenu(menuRect, 0, 0, 0, 0, VSTGUI::COptionMenu::kNoDrawStyle);
                   char name[256];
-                  sprintf(name, "CC %d -> %d", mc, min(mc + 20, 127));
+                  sprintf(name, "CC %d -> %d", mc, min(mc + 19, 127));
                   midiSub->addEntry(currentSub, name);
                }
 
                char name[256];
-               sprintf(name, "CC # %d", mc);
+               synth->storage.midi_controller_names();
+               sprintf(synth->storage.names, " ", mc);
                CCommandMenuItem* cmd = new CCommandMenuItem(CCommandMenuItem::Desc(name));
                cmd->setActions([this, ccid, mc](CCommandMenuItem* men) {
                   synth->storage.controllers[ccid] = mc;

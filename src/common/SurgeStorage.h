@@ -492,6 +492,7 @@ public:
    TiXmlElement* getSnapshotSection(const char* name);
    void load_midi_controllers();
    void save_midi_controllers();
+    void midi_controller_names();
    void save_snapshots();
    int controllers[n_customcontrollers];
    float poly_aftertouch[2][128];
