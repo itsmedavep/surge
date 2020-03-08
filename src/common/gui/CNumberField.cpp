@@ -490,7 +490,7 @@ void CNumberField::draw(CDrawContext* pContext)
    }
 
    if (altlook)
-      pContext->setFontColor(kWhiteCColor);
+      pContext->setFontColor(kGreyCColor);
    else
       pContext->setFontColor(fontColor);
 
@@ -509,7 +509,7 @@ void CNumberField::draw(CDrawContext* pContext)
       // pContext->setFont(this->fontID);
       CRect labelbox(drawsize);
       if (altlook)
-         pContext->setFontColor(kWhiteCColor);
+         pContext->setFontColor(kGreyCColor);
       else
          pContext->setFontColor(fontColor);
 

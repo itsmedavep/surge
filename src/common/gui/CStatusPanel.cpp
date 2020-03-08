@@ -11,7 +11,7 @@ void CStatusPanel::draw( VSTGUI::CDrawContext *dc )
 
     dc->setFont(displayFont);
     auto sw = dc->getStringWidth("Status");
-    dc->setFontColor(kBlackCColor);
+    dc->setFontColor(kGreyCColor);
     dc->drawString("Status", CPoint( size.left + size.getWidth()/2 - sw/2, size.top + 8 ), true );
     
    std::string labs[numDisplayFeatures];
@@ -33,7 +33,7 @@ void CStatusPanel::draw( VSTGUI::CDrawContext *dc )
        auto hlbg = true;
        auto ol = CColor(0x97, 0x97, 0x97 );
        auto bg = CColor(0xe3, 0xe3, 0xe3 );
-       auto fg = kBlackCColor;
+       auto fg = kGreyCColor;
        auto hl = CColor(0xff, 0x9A, 0x10 );
        if( ! dispfeatures[i] )
        {

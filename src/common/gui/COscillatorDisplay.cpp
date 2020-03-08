@@ -280,7 +280,7 @@ void COscillatorDisplay::drawVector(CDrawContext* dc)
          // OK so now the label
          if( osces[1] )
          {
-             dc->setFontColor(kWhiteCColor);
+             dc->setFontColor(kGreyCColor);
              dc->setFont(displayFont);
              CPoint lab0(0, valScale * 0.1 - 10);
              tf.transform(lab0);

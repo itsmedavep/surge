@@ -1501,15 +1501,15 @@ void SurgeGUIEditor::openOrRecreateEditor()
    patchCreator->setImmediateTextChange( true );
    patchComment->setImmediateTextChange( true );
    
-   patchName->setBackColor(kWhiteCColor);
-   patchCategory->setBackColor(kWhiteCColor);
-   patchCreator->setBackColor(kWhiteCColor);
-   patchComment->setBackColor(kWhiteCColor);
+   patchName->setBackColor(kGreyCColor);
+   patchCategory->setBackColor(kGreyCColor);
+   patchCreator->setBackColor(kGreyCColor);
+   patchComment->setBackColor(kGreyCColor);
    
-   patchName->setFontColor(kBlackCColor);
-   patchCategory->setFontColor(kBlackCColor);
-   patchCreator->setFontColor(kBlackCColor);
-   patchComment->setFontColor(kBlackCColor);
+   patchName->setFontColor(kGreyCColor);
+   patchCategory->setFontColor(kGreyCColor);
+   patchCreator->setFontColor(kGreyCColor);
+   patchComment->setFontColor(kGreyCColor);
 
    patchName->setFrameColor(kGreyCColor);
    patchCategory->setFrameColor(kGreyCColor);
@@ -1519,7 +1519,7 @@ void SurgeGUIEditor::openOrRecreateEditor()
    CColor bggr(205,206,212);
    patchTuningLabel->setBackColor(bggr);
    patchTuningLabel->setFrameColor(bggr);
-   patchTuningLabel->setFontColor(kBlackCColor);
+   patchTuningLabel->setFontColor(kGreyCColor);
    
    saveDialog->addView(patchName);
    saveDialog->addView(patchCategory);
@@ -3114,9 +3114,9 @@ bool SurgeGUIEditor::showPatchStoreDialog(patchdata* p,
    }
    else
    {
-       patchTuningLabel->setFontColor(kBlackCColor);
+       patchTuningLabel->setFontColor(kGreyCColor);
        patchTuning->setMouseEnabled(true);
-       patchTuning->setBoxFrameColor(kBlackCColor);
+       patchTuning->setBoxFrameColor(kGreyCColor);
        patchTuning->setValue(0);
    }
     

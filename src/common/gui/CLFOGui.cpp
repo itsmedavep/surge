@@ -28,7 +28,7 @@ void drawtri(CRect r, CDrawContext* context, int orientation)
    {
       for (int y = (midy - a); y <= (midy + a); y++)
       {
-         context->drawPoint(CPoint(x, y), kWhiteCColor);
+         context->drawPoint(CPoint(x, y), kGreyCColor);
       }
       a -= orientation;
       a = max(a, 0);
@@ -281,7 +281,7 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
 #endif 
           CRect tp(CPoint(xp + 1,yp), CPoint(10,10));
           tf.transform(tp);
-          dc->setFontColor(VSTGUI::kBlackCColor);
+          dc->setFontColor(VSTGUI::kGreyCColor);
           dc->setFont(lfoTypeFont);
           char txt[256];
           float tv = delta * l;
@@ -295,7 +295,7 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
           tf.transform(sp);
           tf.transform(ep);
           dc->setLineWidth(1.0);
-          dc->setFrameColor(VSTGUI::kBlackCColor);
+          dc->setFrameColor(VSTGUI::kGreyCColor);
           dc->drawLine(sp,ep);
       }
 
@@ -338,7 +338,7 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
                tf.transform(mps);
                tf.transform(vruleS);
                tf.transform(vruleE);
-               dc->setFrameColor(VSTGUI::kBlackCColor);
+               dc->setFrameColor(VSTGUI::kGreyCColor);
                dc->setLineWidth(1.0);
                dc->drawLine(sp,ep);
                dc->setLineWidth(1.0);
@@ -352,7 +352,7 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
                
                CRect tp(CPoint(xp + 1, valScale * 0.0), CPoint(10,10));
                tf.transform(tp);
-               dc->setFontColor(VSTGUI::kBlackCColor);
+               dc->setFontColor(VSTGUI::kGreyCColor);
                dc->setFont(lfoTypeFont);
                dc->drawString(s, tp, VSTGUI::kLeftText, true );
             }
@@ -363,9 +363,9 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
                tf.transform(ep);
                dc->setLineWidth(0.5);
                if( l % tsNum == 0 )
-                  dc->setFrameColor(VSTGUI::kBlackCColor );
+                  dc->setFrameColor(VSTGUI::kGreyCColor );
                else
-                  dc->setFrameColor(VSTGUI::CColor(0xB0, 0x60, 0x00 ) );
+                  dc->setFrameColor(VSTGUI::kGreyCColor );
                dc->drawLine(sp,ep);
             }
          }
@@ -385,11 +385,11 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
       dc->setDrawMode(VSTGUI::kAntiAliasing);
 
       dc->setLineWidth(1.0);
-      dc->setFrameColor(VSTGUI::CColor(0xE0, 0x80, 0x00));
+      dc->setFrameColor(VSTGUI::kGreyCColor);
       dc->drawLine(mid0, mid1);
       
       dc->setLineWidth(1.0);
-      dc->setFrameColor(VSTGUI::CColor(0xE0, 0x80, 0x00));
+      dc->setFrameColor(VSTGUI::kGreyCColor);
       dc->drawLine(top0, top1);
       dc->drawLine(bot0, bot1);
 
@@ -399,7 +399,7 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
 #else
       dc->setLineWidth(1.0);
 #endif
-      dc->setFrameColor(VSTGUI::CColor(0xB0, 0x60, 0x00, 0xFF));
+      dc->setFrameColor(VSTGUI::kGreyCColor);
       dc->drawGraphicsPath(eupath, VSTGUI::CDrawContext::PathDrawMode::kPathStroked, &tfpath );
       dc->drawGraphicsPath(edpath, VSTGUI::CDrawContext::PathDrawMode::kPathStroked, &tfpath );
 
@@ -408,7 +408,7 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
 #else
       dc->setLineWidth(1.3);
 #endif
-      dc->setFrameColor(VSTGUI::CColor(0x00, 0x00, 0, 0xFF));
+      dc->setFrameColor(VSTGUI::kGreyCColor);
       dc->drawGraphicsPath(path, VSTGUI::CDrawContext::PathDrawMode::kPathStroked, &tfpath );
 
 
@@ -446,7 +446,7 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
       // dc->fillRect(tb);
       shaperect[i] = tb;
       // tb.offset(0,-1);
-      dc->setFontColor(kBlackCColor);
+      dc->setFontColor(kGreyCColor);
       tb.top += 1.6; // now the font is smaller and the box is square, smidge down the text
       dc->drawString(ls_abberations[i], tb);
    }
@@ -659,7 +659,7 @@ void CLFOGui::drawBitmap(CDrawContext* dc)
       // dc->fillRect(tb);
       shaperect[i] = tb;
       // tb.offset(0,-1);
-      dc->setFontColor(kBlackCColor);
+      dc->setFontColor(kGreyCColor);
       tb.top += 1.6; // now the font is smaller and the box is square, smidge down the text
       dc->drawString(ls_abberations[i], tb);
    }

@@ -213,9 +213,9 @@ void CSurgeSlider::draw(CDrawContext* dc)
       // if (label_id >= 0) pLabels->draw(dc,trect,CPoint(0,8*label_id),0xff);
 
       if (style & kWhite)
-         dc->setFontColor(kWhiteCColor);
+         dc->setFontColor(kGreyCColor);
       else
-         dc->setFontColor(kBlackCColor);
+         dc->setFontColor(kGreyCColor);
       dc->setFont(displayFont);
 
       //		int a = 'a' + (rand()&31);

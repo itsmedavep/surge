@@ -78,7 +78,7 @@ void CAboutBox::draw(CDrawContext* pContext)
       int yMargin = 5;
       int yPos = toDisplay.getHeight() - msgs.size() * (strHeight + yMargin); // one for the last; one for the margin
       int xPos = strHeight;
-      pContext->setFontColor(kWhiteCColor);
+      pContext->setFontColor(kGreyCColor);
       pContext->setFont(infoFont);
       for (auto s : msgs)
       {

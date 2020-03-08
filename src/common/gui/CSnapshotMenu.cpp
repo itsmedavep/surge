@@ -269,7 +269,7 @@ void CFxMenu::draw(CDrawContext* dc)
    dc->setFont(displayFont);
    CRect txtbox(lbox);
    txtbox.inset(2, 2);
-   dc->setFillColor(kWhiteCColor);
+   dc->setFillColor(kGreyCColor);
    // dc->fillRect(txtbox);
    txtbox.inset(3, 0);
    txtbox.right -= 6;
