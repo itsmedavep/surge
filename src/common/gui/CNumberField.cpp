@@ -69,9 +69,9 @@ CNumberField::CNumberField(const CRect& size,
     : CControl(size, listener, tag, pBackground)
 {
    backColor = CColor(255, 255, 255, 255);
-   envColor = CColor(214, 209, 198, 255);
-   fontColor = CColor(42, 42, 42, 255);
-   lineColor = CColor(42, 42, 42, 255);
+   envColor = kGreyCColor;
+   fontColor = kGreyCColor;
+   lineColor = kGreyCColor;
 
    i_value = 60;
    controlmode = cm_integer;

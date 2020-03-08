@@ -1516,7 +1516,7 @@ void SurgeGUIEditor::openOrRecreateEditor()
    patchCreator->setFrameColor(kGreyCColor);
    patchComment->setFrameColor(kGreyCColor);
 
-   CColor bggr(205,206,212);
+   CColor bggr = kGreyCColor;
    patchTuningLabel->setBackColor(bggr);
    patchTuningLabel->setFrameColor(bggr);
    patchTuningLabel->setFontColor(kGreyCColor);

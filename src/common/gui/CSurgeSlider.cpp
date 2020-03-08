@@ -429,7 +429,7 @@ void CSurgeSlider::draw(CDrawContext* dc)
             newRect.right = newRect.left + 16;
 
             dc->setFont(displayFont);
-            dc->setFontColor(CColor(80,80,100));
+            dc->setFontColor(kGreyCColor);
 
             auto tRect = newRect;
             tRect.bottom = tRect.top + 11;
