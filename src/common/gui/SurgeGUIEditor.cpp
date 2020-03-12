@@ -24,6 +24,7 @@
 #include "UserInteractions.h"
 #include "DisplayInfo.h"
 #include "UserDefaults.h"
+#include "Colors.h"
 
 #include <iostream>
 #include <iomanip>
@@ -1501,25 +1502,25 @@ void SurgeGUIEditor::openOrRecreateEditor()
    patchCreator->setImmediateTextChange( true );
    patchComment->setImmediateTextChange( true );
    
-   patchName->setBackColor(kGreyCColor);
-   patchCategory->setBackColor(kGreyCColor);
-   patchCreator->setBackColor(kGreyCColor);
-   patchComment->setBackColor(kGreyCColor);
+   patchName->setBackColor(col_label_light_gray);
+   patchCategory->setBackColor(col_label_light_gray);
+   patchCreator->setBackColor(col_label_light_gray);
+   patchComment->setBackColor(col_label_light_gray);
    
-   patchName->setFontColor(kGreyCColor);
-   patchCategory->setFontColor(kGreyCColor);
-   patchCreator->setFontColor(kGreyCColor);
-   patchComment->setFontColor(kGreyCColor);
+   patchName->setFontColor(col_label_light_gray);
+   patchCategory->setFontColor(col_label_light_gray);
+   patchCreator->setFontColor(col_label_light_gray);
+   patchComment->setFontColor(col_label_light_gray);
 
-   patchName->setFrameColor(kGreyCColor);
-   patchCategory->setFrameColor(kGreyCColor);
-   patchCreator->setFrameColor(kGreyCColor);
-   patchComment->setFrameColor(kGreyCColor);
+   patchName->setFrameColor(col_label_light_gray);
+   patchCategory->setFrameColor(col_label_light_gray);
+   patchCreator->setFrameColor(col_label_light_gray);
+   patchComment->setFrameColor(col_label_light_gray);
 
-   CColor bggr = kGreyCColor;
+   CColor bggr = col_label_light_gray;
    patchTuningLabel->setBackColor(bggr);
    patchTuningLabel->setFrameColor(bggr);
-   patchTuningLabel->setFontColor(kGreyCColor);
+   patchTuningLabel->setFontColor(col_label_light_gray);
    
    saveDialog->addView(patchName);
    saveDialog->addView(patchCategory);
@@ -3107,16 +3108,16 @@ bool SurgeGUIEditor::showPatchStoreDialog(patchdata* p,
 {
    if( synth->storage.isStandardTuning )
    {
-       patchTuningLabel->setFontColor(kGreyCColor);
+       patchTuningLabel->setFontColor(col_label_light_gray);
        patchTuning->setMouseEnabled(false);
-       patchTuning->setBoxFrameColor(kGreyCColor);
+       patchTuning->setBoxFrameColor(col_label_light_gray);
        patchTuning->setValue(0);
    }
    else
    {
-       patchTuningLabel->setFontColor(kGreyCColor);
+       patchTuningLabel->setFontColor(col_label_light_gray);
        patchTuning->setMouseEnabled(true);
-       patchTuning->setBoxFrameColor(kGreyCColor);
+       patchTuning->setBoxFrameColor(col_label_light_gray);
        patchTuning->setValue(0);
    }
     

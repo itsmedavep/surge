@@ -77,3 +77,6 @@ const VSTGUI::CColor col_ctrl_text = col_dark_grey;
 const VSTGUI::CColor col_ctrl_frame = col_dark_grey;
 const VSTGUI::CColor col_ctrl_fill = col_white; // col_plain_highlight;
 const VSTGUI::CColor col_ctrl_selected = col_shade1_std;
+
+// Dave Colors
+const VSTGUI::CColor col_label_light_gray = VSTGUI::CColor(180, 180, 180, 255);

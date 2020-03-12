@@ -6,6 +6,7 @@
 #include "CScalableBitmap.h"
 #include "SurgeBitmaps.h"
 #include "SurgeStorage.h" // for TINYXML macro
+#include "Colors.h"
 
 #include <iostream>
 #include <iomanip>
@@ -259,17 +260,17 @@ void CFxMenu::draw(CDrawContext* dc)
    CRect lbox = getViewSize();
    lbox.right--;
    lbox.bottom--;
-   dc->setFillColor(kGreyCColor);
+   dc->setFillColor(col_label_light_gray);
    CRect f1(lbox), f2(lbox);
    f1.inset(1, 0);
    f2.inset(0, 1);
    // dc->fillRect(f1); dc->fillRect(f2);
 
-   dc->setFontColor(kGreyCColor);
+   dc->setFontColor(col_label_light_gray);
    dc->setFont(displayFont);
    CRect txtbox(lbox);
    txtbox.inset(2, 2);
-   dc->setFillColor(kGreyCColor);
+   dc->setFillColor(col_label_light_gray);
    // dc->fillRect(txtbox);
    txtbox.inset(3, 0);
    txtbox.right -= 6;

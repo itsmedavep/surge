@@ -12,6 +12,7 @@
 #include <math.h>
 #include "unitconversion.h"
 #include <iostream>
+#include "Colors.h"
 
 using namespace VSTGUI;
 
@@ -69,9 +70,9 @@ CNumberField::CNumberField(const CRect& size,
     : CControl(size, listener, tag, pBackground)
 {
    backColor = CColor(255, 255, 255, 255);
-   envColor = kGreyCColor;
-   fontColor = kGreyCColor;
-   lineColor = kGreyCColor;
+   envColor = col_label_light_gray;
+   fontColor = col_label_light_gray;
+   lineColor = col_label_light_gray;
 
    i_value = 60;
    controlmode = cm_integer;
@@ -490,7 +491,7 @@ void CNumberField::draw(CDrawContext* pContext)
    }
 
    if (altlook)
-      pContext->setFontColor(kGreyCColor);
+      pContext->setFontColor(col_label_light_gray);
    else
       pContext->setFontColor(fontColor);
 
@@ -509,7 +510,7 @@ void CNumberField::draw(CDrawContext* pContext)
       // pContext->setFont(this->fontID);
       CRect labelbox(drawsize);
       if (altlook)
-         pContext->setFontColor(kGreyCColor);
+         pContext->setFontColor(col_label_light_gray);
       else
          pContext->setFontColor(fontColor);
 

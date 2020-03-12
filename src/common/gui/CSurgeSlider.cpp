@@ -8,6 +8,7 @@
 #include "CScalableBitmap.h"
 #include "SurgeBitmaps.h"
 #include <iostream>
+#include "Colors.h"
 
 using namespace VSTGUI;
 using namespace std;
@@ -213,9 +214,9 @@ void CSurgeSlider::draw(CDrawContext* dc)
       // if (label_id >= 0) pLabels->draw(dc,trect,CPoint(0,8*label_id),0xff);
 
       if (style & kWhite)
-         dc->setFontColor(kGreyCColor);
+         dc->setFontColor(col_label_light_gray);
       else
-         dc->setFontColor(kGreyCColor);
+         dc->setFontColor(col_label_light_gray);
       dc->setFont(displayFont);
 
       //		int a = 'a' + (rand()&31);
@@ -429,7 +430,7 @@ void CSurgeSlider::draw(CDrawContext* dc)
             newRect.right = newRect.left + 16;
 
             dc->setFont(displayFont);
-            dc->setFontColor(kGreyCColor);
+            dc->setFontColor(col_label_light_gray);
 
             auto tRect = newRect;
             tRect.bottom = tRect.top + 11;

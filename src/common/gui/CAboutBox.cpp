@@ -3,6 +3,7 @@
 #include "resource.h"
 #include "RuntimeFont.h"
 #include <stdio.h>
+#include "Colors.h"
 
 using namespace VSTGUI;
 
@@ -78,7 +79,7 @@ void CAboutBox::draw(CDrawContext* pContext)
       int yMargin = 5;
       int yPos = toDisplay.getHeight() - msgs.size() * (strHeight + yMargin); // one for the last; one for the margin
       int xPos = strHeight;
-      pContext->setFontColor(kGreyCColor);
+      pContext->setFontColor(col_label_light_gray);
       pContext->setFont(infoFont);
       for (auto s : msgs)
       {

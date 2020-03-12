@@ -14,6 +14,7 @@
 #include "filesystem"
 #endif
 #include "PopupEditorSpawner.h"
+#include "Colors.h"
 
 using namespace VSTGUI;
 
@@ -280,7 +281,7 @@ void COscillatorDisplay::drawVector(CDrawContext* dc)
          // OK so now the label
          if( osces[1] )
          {
-             dc->setFontColor(kGreyCColor);
+             dc->setFontColor(col_label_light_gray);
              dc->setFont(displayFont);
              CPoint lab0(0, valScale * 0.1 - 10);
              tf.transform(lab0);
