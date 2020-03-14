@@ -252,7 +252,7 @@ void CSurgeSlider::draw(CDrawContext* dc)
    if( modmode )
    {
       CRect trect = hrect;
-      const CColor ColBar = CColor(173, 255, 107, 255 );
+      const CColor ColBar = col_mod_range;
 
       // float moddist = modval * range;
       // We want modval + value to be bould by -1 and 1. So

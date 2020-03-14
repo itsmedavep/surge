@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="96px" height="126px" viewBox="0 0 96 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>bmp00118@125x</title>
+    <title>bmp00118</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#006DD9" offset="0%"></stop>
-            <stop stop-color="#0052A1" offset="100%"></stop>
+            <stop stop-color="#0068D8" offset="0%"></stop>
+            <stop stop-color="#0054AF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D1D1D1" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="bmp00118" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -20,14 +24,14 @@
                 <rect id="Rectangle" x="0" y="36" width="91" height="13"></rect>
                 <rect id="Rectangle" x="0" y="18" width="91" height="13"></rect>
             </g>
-            <g id="Group" transform="translate(1.000000, 1.000000)" fill="#FFFFFF">
-                <rect id="Rectangle" x="0" y="0" width="12" height="11"></rect>
-                <rect id="Rectangle" x="13" y="18" width="12" height="11"></rect>
-                <rect id="Rectangle" x="25" y="36" width="12" height="11"></rect>
-                <rect id="Rectangle" x="39" y="54" width="12" height="11"></rect>
-                <rect id="Rectangle" x="52" y="72" width="12" height="11"></rect>
-                <rect id="Rectangle" x="65" y="90" width="12" height="11"></rect>
-                <rect id="Rectangle" x="77" y="108" width="12" height="11"></rect>
+            <g id="Group" transform="translate(1.000000, 1.000000)" fill="url(#linearGradient-2)">
+                <rect id="Rectangle" x="0" y="0" width="12" height="11" rx="1"></rect>
+                <rect id="Rectangle" x="13" y="18" width="12" height="11" rx="1"></rect>
+                <rect id="Rectangle" x="25" y="36" width="12" height="11" rx="1"></rect>
+                <rect id="Rectangle" x="39" y="54" width="12" height="11" rx="1"></rect>
+                <rect id="Rectangle" x="52" y="72" width="12" height="11" rx="1"></rect>
+                <rect id="Rectangle" x="65" y="90" width="12" height="11" rx="1"></rect>
+                <rect id="Rectangle" x="77" y="108" width="12" height="11" rx="1"></rect>
             </g>
             <g id="Stacked-Group-2" transform="translate(3.000000, 4.000000)">
                 <g id="Numbers"></g>

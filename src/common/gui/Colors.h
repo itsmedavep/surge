@@ -80,3 +80,4 @@ const VSTGUI::CColor col_ctrl_selected = col_shade1_std;
 
 // Dave Colors
 const VSTGUI::CColor col_label_light_gray = VSTGUI::CColor(180, 180, 180, 255);
+const VSTGUI::CColor col_mod_range = VSTGUI::CColor(255, 191, 0, 255);

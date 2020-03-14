@@ -69,7 +69,7 @@ CNumberField::CNumberField(const CRect& size,
                            CBitmap* pBackground)
     : CControl(size, listener, tag, pBackground)
 {
-   backColor = CColor(255, 255, 255, 255);
+   backColor = col_label_light_gray;
    envColor = col_label_light_gray;
    fontColor = col_label_light_gray;
    lineColor = col_label_light_gray;

@@ -282,14 +282,14 @@ void CFxMenu::draw(CDrawContext* dc)
    dc->drawString(fxname, txtbox, kRightText, true);
 
    CPoint d(txtbox.right + 2, txtbox.top + 5);
-   dc->drawPoint(d, kBlackCColor);
+   dc->drawPoint(d, col_label_light_gray);
    d.x++;
-   dc->drawPoint(d, kBlackCColor);
+   dc->drawPoint(d, col_label_light_gray);
    d.y++;
-   dc->drawPoint(d, kBlackCColor);
+   dc->drawPoint(d, col_label_light_gray);
    d.y--;
    d.x++;
-   dc->drawPoint(d, kBlackCColor);
+   dc->drawPoint(d, col_label_light_gray);
 
    setDirty(false);
 }

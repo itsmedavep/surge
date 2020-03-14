@@ -10,19 +10,19 @@
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.05 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-3" x="0" y="27" width="135" height="27" rx="5"></rect>
+        <rect id="path-3" x="0" y="27" width="135" height="27" rx="2"></rect>
         <filter x="-0.2%" y="-0.9%" width="100.4%" height="103.7%" filterUnits="objectBoundingBox" id="filter-4">
             <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.05 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-5" x="0" y="54" width="135" height="27" rx="5"></rect>
+        <rect id="path-5" x="0" y="54" width="135" height="27" rx="2"></rect>
         <filter x="-0.2%" y="-0.9%" width="100.4%" height="103.7%" filterUnits="objectBoundingBox" id="filter-6">
             <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.05 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-7" x="0" y="81" width="135" height="27" rx="5"></rect>
+        <rect id="path-7" x="0" y="81" width="135" height="27" rx="2"></rect>
         <filter x="-0.2%" y="-0.9%" width="100.4%" height="103.7%" filterUnits="objectBoundingBox" id="filter-8">
             <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
@@ -38,15 +38,15 @@
         </g>
         <g id="Rectangle">
             <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-            <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="27.5" width="134" height="26" rx="5"></rect>
+            <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="27.5" width="134" height="26" rx="2"></rect>
         </g>
         <g id="Rectangle">
             <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-            <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="54.5" width="134" height="26" rx="5"></rect>
+            <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="54.5" width="134" height="26" rx="2"></rect>
         </g>
         <g id="Rectangle">
             <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
-            <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="81.5" width="134" height="26" rx="5"></rect>
+            <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="81.5" width="134" height="26" rx="2"></rect>
         </g>
         <rect id="Rectangle" fill="#0F0F0F" x="34" y="29" width="1" height="23"></rect>
         <rect id="Rectangle" fill="#0F0F0F" x="67" y="29" width="1" height="23"></rect>

@@ -4,10 +4,6 @@
     <title>bmp00154</title>
     <desc>Created with Sketch.</desc>
     <g id="bmp00154" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Triangle" fill="#5E72BA" opacity="0.5" points="334 76 388 73 388 76"></polygon>
-        <polygon id="Triangle" fill="#5E72BA" opacity="0.5" points="331 78 277 81 277 78"></polygon>
-        <polygon id="Triangle" fill="#B6C4F6" opacity="0.423897879" points="201 76 255 73 255 76"></polygon>
-        <polygon id="Triangle" fill="#B6C4F6" opacity="0.423897879" points="198 78 144 81 144 78"></polygon>
         <g id="Group-3" transform="translate(66.000000, 18.000000)" fill="#000000">
             <g id="Group">
                 <rect id="Rectangle" x="0" y="0" width="1" height="6"></rect>
@@ -19,221 +15,8 @@
                 <g id="Group-4" transform="translate(5.000000, 0.000000)"></g>
             </g>
         </g>
-        <g id="Group-3" transform="translate(138.000000, 0.000000)">
-            <g id="Group-2" transform="translate(0.000000, 28.000000)">
-                <rect id="Rectangle" fill="#2B3E80" x="5" y="8" width="1" height="3"></rect>
-                <rect id="Rectangle" fill="#2B3E80" x="45" y="8" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#2B3E80" x="53" y="8" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#2B3E80" x="69" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#000000" x="77" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#2B3E80" x="0" y="6" width="123" height="2"></rect>
-                <g id="Group-4" transform="translate(13.000000, 0.000000)">
-                    <rect id="Rectangle" fill="#2B3E80" x="47" y="0" width="3" height="14"></rect>
-                    <rect id="Rectangle" fill="#000000" x="0" y="8" width="1" height="3"></rect>
-                    <rect id="Rectangle" fill="#000000" x="8" y="8" width="1" height="3"></rect>
-                    <rect id="Rectangle" fill="#000000" x="16" y="8" width="1" height="2"></rect>
-                    <rect id="Rectangle" fill="#000000" x="24" y="8" width="1" height="2"></rect>
-                    <rect id="Rectangle" fill="#000000" x="72" y="4" width="1" height="2"></rect>
-                    <rect id="Rectangle" fill="#000000" x="80" y="4" width="1" height="2"></rect>
-                    <rect id="Rectangle" fill="#000000" x="88" y="3" width="1" height="3"></rect>
-                    <rect id="Rectangle" fill="#000000" x="96" y="3" width="1" height="3"></rect>
-                    <rect id="Rectangle" fill="#2B3E80" x="104" y="3" width="1" height="3"></rect>
-                </g>
-                <polygon id="Triangle" fill="#8395D1" points="63 6 117 3 117 6"></polygon>
-                <polygon id="Triangle" fill="#8395D1" points="60 8 6 11 6 8"></polygon>
-            </g>
-            <g id="Group" fill="#2B3E80">
-                <rect id="Rectangle" x="0" y="20" width="123" height="2"></rect>
-                <rect id="Rectangle" x="61" y="18" width="1" height="6"></rect>
-                <rect id="Rectangle" x="117" y="0" width="1" height="28"></rect>
-                <rect id="Rectangle" x="0" y="6" width="123" height="2"></rect>
-                <rect id="Rectangle" x="5" y="0" width="1" height="28"></rect>
-            </g>
-            <polygon id="Triangle" fill="#7B8ECE" transform="translate(61.500000, 3.000000) rotate(-90.000000) translate(-61.500000, -3.000000) " points="58.5 -52.5 64.5 58.5 58.5 58.5"></polygon>
-            <polygon id="Triangle" fill="#7B8ECE" transform="translate(89.500000, 17.000000) rotate(-90.000000) translate(-89.500000, -17.000000) " points="86.5 -10.5 92.5 44.5 86.5 44.5"></polygon>
-            <polygon id="Triangle" fill="#7B8ECE" transform="translate(33.500000, 25.000000) rotate(-270.000000) translate(-33.500000, -25.000000) " points="30.5 -2.5 36.5 52.5 30.5 52.5"></polygon>
-        </g>
-        <g id="Group-3" transform="translate(138.000000, 42.000000)">
-            <g id="Group-2" transform="translate(0.000000, 28.000000)">
-                <rect id="Rectangle" fill="#B6C4F6" x="5" y="8" width="1" height="3"></rect>
-                <rect id="Rectangle" fill="#C1CEFF" x="53" y="8" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#B6C4F6" x="69" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#B6C4F6" x="77" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#B6C4F6" x="0" y="6" width="123" height="2"></rect>
-                <g id="Group-4" transform="translate(60.000000, 0.000000)" fill="#B6C4F6">
-                    <rect id="Rectangle" x="0" y="0" width="3" height="14"></rect>
-                    <rect id="Rectangle" x="57" y="3" width="1" height="3"></rect>
-                </g>
-                <g id="Group-4" opacity="0.747628348" transform="translate(13.000000, 3.000000)" fill="#B6C4F6">
-                    <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-                    <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-                    <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-                    <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-                    <rect id="Rectangle" x="40" y="5" width="1" height="1"></rect>
-                    <rect id="Rectangle" x="32" y="5" width="1" height="1"></rect>
-                    <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-                    <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-                    <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-                    <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
-                </g>
-            </g>
-            <g id="Group" fill="#B6C4F6">
-                <rect id="Rectangle" x="0" y="20" width="123" height="2"></rect>
-                <rect id="Rectangle" x="61" y="18" width="1" height="6"></rect>
-                <rect id="Rectangle" x="117" y="0" width="1" height="28"></rect>
-                <rect id="Rectangle" x="0" y="6" width="123" height="2"></rect>
-                <rect id="Rectangle" x="5" y="0" width="1" height="28"></rect>
-            </g>
-            <polygon id="Triangle" fill="#B6C4F6" opacity="0.497721354" transform="translate(61.500000, 3.000000) rotate(-90.000000) translate(-61.500000, -3.000000) " points="58.5 -52.5 64.5 58.5 58.5 58.5"></polygon>
-            <polygon id="Triangle" fill="#B6C4F6" opacity="0.497721354" transform="translate(89.500000, 17.000000) rotate(-90.000000) translate(-89.500000, -17.000000) " points="86.5 -10.5 92.5 44.5 86.5 44.5"></polygon>
-            <polygon id="Triangle" fill="#B6C4F6" opacity="0.497721354" transform="translate(33.500000, 25.000000) rotate(-270.000000) translate(-33.500000, -25.000000) " points="30.5 -2.5 36.5 52.5 30.5 52.5"></polygon>
-        </g>
-        <g id="Group-3" transform="translate(271.000000, 42.000000)">
-            <g id="Group-2" transform="translate(0.000000, 28.000000)" fill="#5E72BA">
-                <rect id="Rectangle" x="5" y="8" width="1" height="3"></rect>
-                <rect id="Rectangle" x="117" y="3" width="1" height="3"></rect>
-                <rect id="Rectangle" x="45" y="8" width="1" height="1"></rect>
-                <rect id="Rectangle" x="53" y="8" width="1" height="1"></rect>
-                <rect id="Rectangle" x="69" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" x="77" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" x="0" y="6" width="123" height="2"></rect>
-            </g>
-            <g id="Group" fill="#5E72BA">
-                <rect id="Rectangle" x="0" y="20" width="123" height="2"></rect>
-                <rect id="Rectangle" x="61" y="18" width="1" height="6"></rect>
-                <rect id="Rectangle" x="117" y="0" width="1" height="28"></rect>
-                <rect id="Rectangle" x="0" y="6" width="123" height="2"></rect>
-                <rect id="Rectangle" x="5" y="0" width="1" height="28"></rect>
-            </g>
-            <polygon id="Triangle" fill="#5E72BA" opacity="0.5" transform="translate(61.500000, 3.000000) rotate(-90.000000) translate(-61.500000, -3.000000) " points="58.5 -52.5 64.5 58.5 58.5 58.5"></polygon>
-            <polygon id="Triangle" fill="#5E72BA" opacity="0.5" transform="translate(89.500000, 17.000000) rotate(-90.000000) translate(-89.500000, -17.000000) " points="86.5 -10.5 92.5 44.5 86.5 44.5"></polygon>
-            <polygon id="Triangle" fill="#637FE3" opacity="0.5" transform="translate(33.500000, 25.000000) rotate(-270.000000) translate(-33.500000, -25.000000) " points="30.5 -2.5 36.5 52.5 30.5 52.5"></polygon>
-        </g>
-        <g id="Group-3" transform="translate(271.000000, 0.000000)">
-            <g id="Group-2" transform="translate(0.000000, 28.000000)">
-                <rect id="Rectangle" fill="#1437B8" x="5" y="8" width="1" height="3"></rect>
-                <rect id="Rectangle" fill="#C1CEFF" x="53" y="8" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#1437B8" x="69" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#1437B8" x="77" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" fill="#1437B8" x="0" y="6" width="123" height="2"></rect>
-                <g id="Group-4" transform="translate(60.000000, 0.000000)">
-                    <rect id="Rectangle" fill="#1437B8" x="0" y="0" width="3" height="14"></rect>
-                    <rect id="Rectangle" fill="#5E72BA" x="0" y="42" width="3" height="14"></rect>
-                    <rect id="Rectangle" fill="#1437B8" x="57" y="3" width="1" height="3"></rect>
-                </g>
-                <polygon id="Triangle" fill="#1437B8" opacity="0.494094122" points="63 6 117 3 117 6"></polygon>
-                <polygon id="Triangle" fill="#1437B8" opacity="0.494094122" points="60 8 6 11 6 8"></polygon>
-            </g>
-            <g id="Group" fill="#1437B8">
-                <rect id="Rectangle" x="0" y="20" width="123" height="2"></rect>
-                <rect id="Rectangle" x="61" y="18" width="1" height="6"></rect>
-                <rect id="Rectangle" x="117" y="0" width="1" height="28"></rect>
-                <rect id="Rectangle" x="0" y="6" width="123" height="2"></rect>
-                <rect id="Rectangle" x="5" y="0" width="1" height="28"></rect>
-            </g>
-            <polygon id="Triangle" fill="#1437B8" opacity="0.494094122" transform="translate(61.500000, 3.000000) rotate(-90.000000) translate(-61.500000, -3.000000) " points="58.5 -52.5 64.5 58.5 58.5 58.5"></polygon>
-            <polygon id="Triangle" fill="#1437B8" opacity="0.494094122" transform="translate(89.500000, 17.000000) rotate(-90.000000) translate(-89.500000, -17.000000) " points="86.5 -10.5 92.5 44.5 86.5 44.5"></polygon>
-            <polygon id="Triangle" fill="#1437B8" opacity="0.494094122" transform="translate(33.500000, 25.000000) rotate(-270.000000) translate(-33.500000, -25.000000) " points="30.5 -2.5 36.5 52.5 30.5 52.5"></polygon>
-        </g>
-        <g id="Group-5" transform="translate(284.000000, 31.000000)" fill="#1437B8" opacity="0.250372024">
-            <g id="Group-4">
-                <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="40" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" x="32" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-                <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
-            </g>
-            <g id="Group-4">
-                <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="40" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" x="32" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-                <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
-            </g>
-            <g id="Group-4">
-                <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="40" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" x="32" y="5" width="1" height="1"></rect>
-                <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-                <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
-            </g>
-        </g>
-        <g id="Group-6" transform="translate(151.000000, 31.000000)" fill="#2B3E80" opacity="0.250372024">
-            <g id="Group-4">
-                <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-                <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
-            </g>
-            <g id="Group-4">
-                <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-                <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
-            </g>
-            <g id="Group-4">
-                <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-                <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-                <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-                <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-                <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
-            </g>
-        </g>
-        <g id="Group-4" opacity="0.250372024" transform="translate(284.000000, 73.000000)" fill="#405CBF">
-            <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-            <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-            <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-            <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-            <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-            <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-            <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-            <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
-        </g>
-        <g id="Group-4" opacity="0.250372024" transform="translate(284.000000, 73.000000)" fill="#405CBF">
-            <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-            <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-            <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-            <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-            <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-            <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-            <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-            <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
-        </g>
-        <g id="Group-4" opacity="0.250372024" transform="translate(284.000000, 73.000000)" fill="#5E72BA">
-            <rect id="Rectangle" x="0" y="5" width="1" height="3"></rect>
-            <rect id="Rectangle" x="8" y="5" width="1" height="3"></rect>
-            <rect id="Rectangle" x="16" y="5" width="1" height="2"></rect>
-            <rect id="Rectangle" x="24" y="5" width="1" height="2"></rect>
-            <rect id="Rectangle" x="72" y="1" width="1" height="2"></rect>
-            <rect id="Rectangle" x="80" y="1" width="1" height="2"></rect>
-            <rect id="Rectangle" x="88" y="0" width="1" height="3"></rect>
-            <rect id="Rectangle" x="96" y="0" width="1" height="3"></rect>
+        <g id="Group-3" transform="translate(284.000000, 70.000000)">
+            <g id="Group-2"></g>
         </g>
         <g id="Group-7" transform="translate(5.000000, 30.000000)">
             <rect id="Rectangle" fill-opacity="0.1" fill="#FFFFFF" x="0" y="3.5" width="123" height="3" rx="1.5"></rect>
@@ -254,6 +37,25 @@
             <rect id="Rectangle-Copy" fill="#181818" x="117" y="0" width="1" height="9"></rect>
             <rect id="Rectangle" stroke="#0F0F0F" fill="#1F1F1F" x="0.5" y="3.5" width="122" height="2" rx="1"></rect>
         </g>
+        <g id="Group-7-Copy-6" transform="translate(138.000000, 30.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="2" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="61" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="13" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="21" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="29" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="37" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="45" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="53" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="69" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="77" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="85" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="93" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="101" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="109" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="3.5" width="122" height="2" rx="1"></rect>
+        </g>
         <g id="Group-7" transform="translate(5.000000, 14.000000)">
             <rect id="Rectangle" fill-opacity="0.1" fill="#FFFFFF" x="0" y="5.5" width="123" height="3" rx="1.5"></rect>
             <rect id="Rectangle" fill="#181818" x="61" y="3" width="1" height="7"></rect>
@@ -261,11 +63,24 @@
             <rect id="Rectangle-Copy" fill="#181818" x="117" y="0" width="1" height="13"></rect>
             <rect id="Rectangle" stroke="#0F0F0F" fill="#1F1F1F" x="0.5" y="5.5" width="122" height="2" rx="1"></rect>
         </g>
+        <g id="Group-7-Copy-5" transform="translate(138.000000, 14.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="4" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="61" y="3" width="1" height="7"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="13"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="13"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="5.5" width="122" height="2" rx="1"></rect>
+        </g>
         <g id="Group-7" transform="translate(5.000000, 3.000000)">
             <rect id="Rectangle" fill-opacity="0.1" fill="#FFFFFF" x="0" y="2.5" width="123" height="3" rx="1.5"></rect>
             <rect id="Rectangle" fill="#181818" x="5" y="0" width="1" height="7"></rect>
             <rect id="Rectangle-Copy" fill="#181818" x="117" y="0" width="1" height="7"></rect>
             <rect id="Rectangle" stroke="#0F0F0F" fill="#1F1F1F" x="0.5" y="2.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-4" transform="translate(138.000000, 3.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="1" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="7"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="7"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="2.5" width="122" height="2" rx="1"></rect>
         </g>
         <g id="Group-7-Copy-3" transform="translate(5.000000, 72.000000)">
             <rect id="Rectangle" fill-opacity="0.1" fill="#FFFFFF" x="0" y="3.5" width="123" height="3" rx="1.5"></rect>
@@ -298,6 +113,102 @@
             <rect id="Rectangle" fill="#181818" x="5" y="0" width="1" height="7"></rect>
             <rect id="Rectangle-Copy" fill="#181818" x="117" y="0" width="1" height="7"></rect>
             <rect id="Rectangle" stroke="#0F0F0F" fill="#1F1F1F" x="0.5" y="2.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-9" transform="translate(271.000000, 72.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="2" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="61" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="13" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="21" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="29" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="37" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="45" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="53" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="69" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="77" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="85" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="93" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="101" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="109" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="3.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-8" transform="translate(271.000000, 56.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="4" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="61" y="3" width="1" height="7"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="13"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="13"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="5.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-7" transform="translate(271.000000, 45.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="1" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="7"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="7"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="2.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-12" transform="translate(271.000000, 30.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="2" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="61" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="13" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="21" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="29" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="37" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="45" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="53" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="69" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="77" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="85" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="93" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="101" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="109" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="3.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-11" transform="translate(271.000000, 14.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="4" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="61" y="3" width="1" height="7"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="13"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="13"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="5.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-10" transform="translate(271.000000, 3.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="1" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="7"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="7"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="2.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-15" transform="translate(138.000000, 72.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="2" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="61" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="13" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="21" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="29" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="37" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="45" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="53" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="69" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="77" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="85" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="93" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" fill="#001428" x="101" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="109" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="9"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="3.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-14" transform="translate(138.000000, 56.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="4" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="61" y="3" width="1" height="7"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="13"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="13"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="5.5" width="122" height="2" rx="1"></rect>
+        </g>
+        <g id="Group-7-Copy-13" transform="translate(138.000000, 45.000000)">
+            <rect id="Rectangle" fill-opacity="0.4" fill="#001E3C" x="0" y="1" width="123" height="5" rx="2.5"></rect>
+            <rect id="Rectangle" fill="#001428" x="5" y="0" width="1" height="7"></rect>
+            <rect id="Rectangle-Copy" fill="#001428" x="117" y="0" width="1" height="7"></rect>
+            <rect id="Rectangle" stroke="#001427" fill="#2471DB" x="0.5" y="2.5" width="122" height="2" rx="1"></rect>
         </g>
     </g>
 </svg>
