@@ -26,9 +26,9 @@
                 </g>
             </g>
             <g id="Group" transform="translate(7.000000, 3.000000)">
-                <rect id="Rectangle" fill="#7F7F7F" x="0" y="2" width="6" height="2"></rect>
+                <rect id="Rectangle" fill="#B4B4B4" fill-rule="nonzero" x="0" y="2" width="6" height="2"></rect>
                 <rect id="Rectangle" fill="#0F0F0F" x="11" y="0" width="1" height="6"></rect>
-                <path d="M21,0 L21,2 L23,2 L23,4 L21,4 L21,6 L19,6 L19,4 L17,4 L17,2 L19,2 L19,0 L21,0 Z" id="Combined-Shape" fill="#7F7F7F"></path>
+                <path d="M21,0 L21,2 L23,2 L23,4 L21,4 L21,6 L19,6 L19,4 L17,4 L17,2 L19,2 L19,0 L21,0 Z" id="Combined-Shape" fill="#B4B4B4" fill-rule="nonzero"></path>
             </g>
         </g>
         <g id="Group-2" transform="translate(0.000000, 12.000000)">
@@ -39,9 +39,9 @@
                 </g>
             </g>
             <g id="Group" transform="translate(7.000000, 3.000000)">
-                <rect id="Rectangle" fill="#7F7F7F" x="0" y="2" width="6" height="2"></rect>
+                <rect id="Rectangle" fill="#B4B4B4" fill-rule="nonzero" x="0" y="2" width="6" height="2"></rect>
                 <rect id="Rectangle" fill="#0F0F0F" x="11" y="0" width="1" height="6"></rect>
-                <path d="M21,0 L21,2 L23,2 L23,4 L21,4 L21,6 L19,6 L19,4 L17,4 L17,2 L19,2 L19,0 L21,0 Z" id="Combined-Shape" fill="#7F7F7F"></path>
+                <path d="M21,0 L21,2 L23,2 L23,4 L21,4 L21,6 L19,6 L19,4 L17,4 L17,2 L19,2 L19,0 L21,0 Z" id="Combined-Shape" fill="#B4B4B4" fill-rule="nonzero"></path>
             </g>
         </g>
     </g>
