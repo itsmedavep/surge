@@ -11,6 +11,8 @@ void CStatusPanel::draw( VSTGUI::CDrawContext *dc )
 
     dc->setFont(displayFont);
     auto sw = dc->getStringWidth("Status");
+    
+//    Font color for Status Label
     dc->setFontColor(col_label_light_gray);
     dc->drawString("Status", CPoint( size.left + size.getWidth()/2 - sw/2, size.top + 8 ), true );
     
@@ -31,35 +33,59 @@ void CStatusPanel::draw( VSTGUI::CDrawContext *dc )
            tuningBox = CRect(xp,yp,xp+w,yp+h);
        
        auto hlbg = true;
-       auto ol = CColor(0x97, 0x97, 0x97 );
-       auto bg = CColor(0xe3, 0xe3, 0xe3 );
+       
+//       Setting hard coded button outline to match svg assets #0f0f0f
+       auto ol = col_status_button_ol;
+       
+//       Setting hard coded button bg color to the same as the svg assets #242424
+       auto bg = col_status_button_bg;
+       
+//     Font on status label buttons
        auto fg = col_label_light_gray;
-       auto hl = CColor(0xff, 0x9A, 0x10 );
+       
+//       Selection highlight on button is Surge orange current scheme would need to invert label in selected state to be ledgible.
+       auto hl = col_status_button_hl;
        if( ! dispfeatures[i] )
        {
            hlbg = false;
+           
        }
 
        dc->setDrawMode(VSTGUI::kAntiAliasing);
        dc->setFrameColor(bg);;
-       auto p = dc->createRoundRectGraphicsPath(CRect(xp,yp,xp+w,yp+h), 5 );
+//       Yup. I changed the radius size of the button to match the svg too
+       auto p = dc->createRoundRectGraphicsPath(CRect(xp,yp,xp+w,yp+h), 2 );
+       
        dc->setFillColor(bg);;
        dc->drawGraphicsPath(p, CDrawContext::kPathFilled);
        dc->setFrameColor(ol);
        dc->drawGraphicsPath(p, CDrawContext::kPathStroked);
        p->forget();
 
+//       I changed this from an if to if else in order to be able to switch the font color in the selected state
        if( hlbg )
        {
-           auto p = dc->createRoundRectGraphicsPath(CRect(xp+2,yp+2,xp+w-2,yp+h-2), 3 );
+//           setting radius on selection state highlight
+           auto p = dc->createRoundRectGraphicsPath(CRect(xp+2,yp+2,xp+w-2,yp+h-2), 1 );
+
+//           rejigger to get font color switching on state change
+           dc->setFont(displayFont);
+           auto sw = dc->getStringWidth(labs[i].c_str());
+           auto fc = VSTGUI::kBlackCColor;
+           dc->setFontColor(fc);
+           
            dc->setFillColor(hl);
            dc->drawGraphicsPath(p, CDrawContext::kPathFilled);
+           dc->drawString(labs[i].c_str(), CPoint( xp + w/2 - sw/2, yp + h - 3 ), true );
            p->forget();
        }
-       dc->setFont(displayFont);
-       auto sw = dc->getStringWidth(labs[i].c_str());
-       dc->setFontColor(fg);
-       dc->drawString(labs[i].c_str(), CPoint( xp + w/2 - sw/2, yp + h - 3 ), true );
+       else {
+//           rejigger to get font color switching on state change
+           dc->setFont(displayFont);
+           auto sw = dc->getStringWidth(labs[i].c_str());
+           dc->setFontColor(fg);
+           dc->drawString(labs[i].c_str(), CPoint( xp + w/2 - sw/2, yp + h - 3 ), true );
+       }
    }
 }
 

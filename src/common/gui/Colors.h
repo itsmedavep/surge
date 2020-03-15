@@ -81,3 +81,8 @@ const VSTGUI::CColor col_ctrl_selected = col_shade1_std;
 // Dave Colors
 const VSTGUI::CColor col_label_light_gray = VSTGUI::CColor(180, 180, 180, 255);
 const VSTGUI::CColor col_mod_range = VSTGUI::CColor(255, 191, 0, 255);
+
+// Status button colors
+const VSTGUI::CColor col_status_button_ol = VSTGUI::CColor(15, 15, 15, 255);
+const VSTGUI::CColor col_status_button_bg = VSTGUI::CColor(24, 24, 24, 255);
+const VSTGUI::CColor col_status_button_hl = VSTGUI::CColor(255, 144, 0, 255);
