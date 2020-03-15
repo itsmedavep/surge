@@ -442,14 +442,22 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
          tb2.offset(0, 1);
          dc->setFillColor(cselected);
          dc->drawRect(tb2, kDrawFilled);
+//       setting up label color when selected
+         dc->setFontColor(kBlackCColor);
+         tb.top += 1.6; // now the font is smaller and the box is square, smidge down the text
+         dc->drawString(ls_abberations[i], tb);
       }
+      else {
       // else dc->setFillColor(cgray);
       // dc->fillRect(tb);
       shaperect[i] = tb;
       // tb.offset(0,-1);
+          
+//    setting lfo label color when not selected
       dc->setFontColor(col_label_light_gray);
       tb.top += 1.6; // now the font is smaller and the box is square, smidge down the text
       dc->drawString(ls_abberations[i], tb);
+      }
    }
 
    setDirty(false);
