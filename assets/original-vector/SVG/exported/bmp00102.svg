@@ -248,7 +248,8 @@
         <polygon id="Triangle" fill="#B4B4B4" transform="translate(555.000000, 381.506723) scale(-1, 1) rotate(-90.000000) translate(-555.000000, -381.506723) " points="555 379.506723 558 383.506723 552 383.506723"></polygon>
         <polygon id="Triangle" fill="#B4B4B4" transform="translate(333.000000, 381.506723) scale(-1, 1) rotate(-90.000000) translate(-333.000000, -381.506723) " points="333 379.506723 336 383.506723 330 383.506723"></polygon>
         <polygon id="Triangle" fill="#B4B4B4" transform="translate(314.000000, 381.506723) scale(-1, 1) rotate(-90.000000) translate(-314.000000, -381.506723) " points="314 379.506723 317 383.506723 311 383.506723"></polygon>
-        <rect id="Rectangle" fill="#000000" x="387" y="312" width="30" height="49"></rect>
+        <rect id="Rectangle" fill-opacity="0.1" fill="#FFFFFF" x="387" y="312.5" width="30" height="49" rx="1"></rect>
+        <rect id="Rectangle-Copy-2" fill="#101010" x="387" y="312" width="30" height="49" rx="1"></rect>
         <rect id="Rectangle" stroke="#FF9000" x="423.5" y="376.5" width="10" height="10"></rect>
         <rect id="Rectangle" fill="#FF9415" x="428" y="376" width="1" height="11"></rect>
         <rect id="Rectangle" fill="#FF9000" x="423" y="381" width="11" height="1"></rect>
