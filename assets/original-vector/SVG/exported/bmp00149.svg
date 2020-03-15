@@ -25,10 +25,16 @@
                     <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="0.5" width="36" height="11" rx="2"></rect>
                 </g>
             </g>
-            <g id="Group" transform="translate(7.000000, 3.000000)">
-                <rect id="Rectangle" fill="#B4B4B4" fill-rule="nonzero" x="0" y="2" width="6" height="2"></rect>
-                <rect id="Rectangle" fill="#0F0F0F" x="11" y="0" width="1" height="6"></rect>
-                <path d="M21,0 L21,2 L23,2 L23,4 L21,4 L21,6 L19,6 L19,4 L17,4 L17,2 L19,2 L19,0 L21,0 Z" id="Combined-Shape" fill="#B4B4B4" fill-rule="nonzero"></path>
+            <g id="Group-3" transform="translate(6.000000, 3.000000)" fill="#B4B4B4">
+                <rect id="Rectangle" x="3" y="2" width="5" height="2"></rect>
+                <polygon id="Triangle" transform="translate(2.000000, 3.000000) rotate(-90.000000) translate(-2.000000, -3.000000) " points="2 1 5 5 -1 5"></polygon>
+            </g>
+            <g id="Group-3" transform="translate(27.000000, 6.000000) scale(-1, 1) translate(-27.000000, -6.000000) translate(23.000000, 3.000000)" fill="#B4B4B4">
+                <rect id="Rectangle" x="3" y="2" width="5" height="2"></rect>
+                <polygon id="Triangle" transform="translate(2.000000, 3.000000) rotate(-90.000000) translate(-2.000000, -3.000000) " points="2 1 5 5 -1 5"></polygon>
+            </g>
+            <g id="Group" transform="translate(7.000000, 3.000000)" fill="#0F0F0F">
+                <rect id="Rectangle" x="11" y="0" width="1" height="6"></rect>
             </g>
         </g>
         <g id="Group-2" transform="translate(0.000000, 12.000000)">
@@ -38,10 +44,16 @@
                     <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="0.5" width="36" height="11" rx="2"></rect>
                 </g>
             </g>
-            <g id="Group" transform="translate(7.000000, 3.000000)">
-                <rect id="Rectangle" fill="#B4B4B4" fill-rule="nonzero" x="0" y="2" width="6" height="2"></rect>
-                <rect id="Rectangle" fill="#0F0F0F" x="11" y="0" width="1" height="6"></rect>
-                <path d="M21,0 L21,2 L23,2 L23,4 L21,4 L21,6 L19,6 L19,4 L17,4 L17,2 L19,2 L19,0 L21,0 Z" id="Combined-Shape" fill="#B4B4B4" fill-rule="nonzero"></path>
+            <g id="Group-3" transform="translate(6.000000, 3.000000)" fill="#B4B4B4">
+                <rect id="Rectangle" x="3" y="2" width="5" height="2"></rect>
+                <polygon id="Triangle" transform="translate(2.000000, 3.000000) rotate(-90.000000) translate(-2.000000, -3.000000) " points="2 1 5 5 -1 5"></polygon>
+            </g>
+            <g id="Group-3" transform="translate(27.000000, 6.000000) scale(-1, 1) translate(-27.000000, -6.000000) translate(23.000000, 3.000000)" fill="#B4B4B4">
+                <rect id="Rectangle" x="3" y="2" width="5" height="2"></rect>
+                <polygon id="Triangle" transform="translate(2.000000, 3.000000) rotate(-90.000000) translate(-2.000000, -3.000000) " points="2 1 5 5 -1 5"></polygon>
+            </g>
+            <g id="Group" transform="translate(7.000000, 3.000000)" fill="#0F0F0F">
+                <rect id="Rectangle" x="11" y="0" width="1" height="6"></rect>
             </g>
         </g>
     </g>

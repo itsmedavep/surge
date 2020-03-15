@@ -4,7 +4,7 @@
     <title>bmp00140</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="10" height="13" rx="5"></rect>
+        <rect id="path-1" x="0" y="0" width="10" height="13" rx="2"></rect>
         <filter x="-2.5%" y="-1.9%" width="105.0%" height="107.7%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
@@ -19,10 +19,10 @@
         <g id="Group" transform="translate(0.000000, 1.000000)">
             <g id="Rectangle">
                 <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="0.5" width="9" height="12" rx="4.5"></rect>
+                <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="0.5" width="9" height="12" rx="2"></rect>
             </g>
         </g>
-        <rect id="Rectangle" stroke="#BD6404" fill="url(#linearGradient-3)" x="0.5" y="19.5" width="9" height="12" rx="4.5"></rect>
+        <rect id="Rectangle" stroke="#BD6404" fill="url(#linearGradient-3)" x="0.5" y="19.5" width="9" height="12" rx="2"></rect>
         <g id="Font-Layer-Copy" transform="translate(3.000000, 3.000000)" fill-rule="nonzero">
             <polygon id="L" fill="#B4B4B4" points="3.479 7 3.479 6.223 1.4525 6.223 1.4525 1.939 0.511 1.939 0.511 7"></polygon>
             <polygon id="L" fill="#252525" points="3.479 25 3.479 24.223 1.4525 24.223 1.4525 19.939 0.511 19.939 0.511 25"></polygon>
