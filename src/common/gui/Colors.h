@@ -86,3 +86,7 @@ const VSTGUI::CColor col_mod_range = VSTGUI::CColor(255, 191, 0, 255);
 const VSTGUI::CColor col_status_button_ol = VSTGUI::CColor(15, 15, 15, 255);
 const VSTGUI::CColor col_status_button_bg = VSTGUI::CColor(24, 24, 24, 255);
 const VSTGUI::CColor col_status_button_hl = VSTGUI::CColor(255, 144, 0, 255);
+
+//VU colors
+const VSTGUI::CColor col_vu_meter_stero_divider = VSTGUI::CColor(32, 32, 32, 255);
+const VSTGUI::CColor col_vu_meter_border = VSTGUI::CColor(15, 15, 15, 255);

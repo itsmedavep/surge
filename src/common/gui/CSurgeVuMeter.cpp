@@ -1,5 +1,6 @@
 #include "CSurgeVuMeter.h"
 #include "DspUtilities.h"
+#include "Colors.h"
 
 using namespace VSTGUI;
 
@@ -57,13 +58,15 @@ void CSurgeVuMeter::draw(CDrawContext* dc)
    VSTGUI::CDrawMode newMode(VSTGUI::kAntiAliasing);
    dc->setDrawMode(newMode);
 
-   dc->setFillColor(VSTGUI::CColor(0xCD, 0xCE, 0xD4)); // The light gray from origina-vector skin
+//    setting to black for the outer box of the VU
+   dc->setFillColor(col_vu_meter_border); // The light gray from origina-vector skin
    dc->drawRect(size, VSTGUI::kDrawFilled);
 
    CRect rectBox = lbox;
    rectBox.inset(1, 1);
-   VSTGUI::CGraphicsPath* path = dc->createRoundRectGraphicsPath(rectBox, 2);
+   VSTGUI::CGraphicsPath* path = dc->createRoundRectGraphicsPath(rectBox, 1);
 
+//   VU inner background channels draw over this bit
    dc->setFillColor(kBlackCColor);
    dc->drawGraphicsPath(path, VSTGUI::CDrawContext::kPathFilled);
 
@@ -127,12 +130,14 @@ void CSurgeVuMeter::draw(CDrawContext* dc)
          dc->drawRect(bar, kDrawFilled);
 
          barblack.left = bar.right - 1;
-         dc->setFillColor(kBlackCColor);
+          
+//          VU line between channels
+         dc->setFillColor(col_vu_meter_stero_divider);
          dc->drawRect(midline, kDrawFilled);
       }
    }
 
-   dc->setFrameColor(VSTGUI::CColor(0xA1, 0xA4, 0xB7)); // the dark gray from original vector skin
+   dc->setFrameColor(col_vu_meter_border); // setting to match the outer box which also matches the skin button outline color
    dc->setLineWidth(1);
    dc->drawGraphicsPath(path, VSTGUI::CDrawContext::kPathStroked);
 
