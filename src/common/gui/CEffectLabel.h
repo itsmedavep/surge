@@ -3,6 +3,7 @@
 //-------------------------------------------------------------------------------------------------------
 #pragma once
 #include "vstcontrols.h"
+#include "Colors.h"
 
 extern VSTGUI::CFontRef displayFont;
 
@@ -18,12 +19,12 @@ public:
       VSTGUI::CRect bl(size);
       bl.top = bl.bottom - 2;
 
-      VSTGUI::CColor gray = {106, 106, 106, 255};
-      dc->setFillColor(gray);
+ //     VSTGUI::CColor gray = {106, 106, 106, 255};
+      dc->setFillColor(col_fx_panel_hrule); // setting divider color
       dc->drawRect(bl, VSTGUI::kDrawFilled);
 
-      VSTGUI::CColor dgray = {76, 76, 76, 255};
-      dc->setFontColor(dgray);
+ //     VSTGUI::CColor dgray = {76, 76, 76, 255};
+      dc->setFontColor(col_label_light_gray); //setting font color to match app
       dc->setFont(displayFont);
       dc->drawString(label.c_str(), size, VSTGUI::kLeftText, true);
 
