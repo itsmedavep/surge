@@ -8,9 +8,9 @@
         <path d="M57.5,132.5 L55.5,132.5 L55.5,135.49925 L52.9329238,135.500533 L56.5,139.781025 L60.0675208,135.5 L57.5,135.5 L57.5,132.5 Z" id="Combined-Shape" stroke="#FF8F02" fill="#113363"></path>
         <rect id="Rectangle" stroke="#2E86FE" fill="#FFFFFF" x="0.5" y="0.5" width="72" height="15"></rect>
         <rect id="Rectangle" stroke="#2E86FE" fill="#FFFFFF" x="0.5" y="16.5" width="72" height="15"></rect>
-        <rect id="Rectangle" fill="#E02020" x="0" y="33" width="73" height="14"></rect>
-        <rect id="Rectangle" fill="#E02020" x="0" y="49" width="73" height="14"></rect>
-        <rect id="Rectangle" fill="#FF9000" x="0" y="81" width="73" height="14"></rect>
+        <rect id="Rectangle" fill="#2E86FE" x="0" y="33" width="73" height="14"></rect>
+        <rect id="Rectangle" fill="#2E86FE" x="0" y="49" width="73" height="14"></rect>
+        <rect id="Rectangle" fill="#ADFF6B" x="0" y="81" width="73" height="14"></rect>
         <g id="Group" transform="translate(-1.000000, 96.000000)" stroke="#FFFFFF">
             <rect id="Rectangle" stroke-opacity="0.278560915" x="2.5" y="2.5" width="70" height="11"></rect>
             <rect id="Rectangle" stroke-opacity="0.501415308" x="1.5" y="1.5" width="72" height="13"></rect>
