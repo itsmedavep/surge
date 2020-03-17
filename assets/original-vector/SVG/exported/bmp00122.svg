@@ -6,9 +6,9 @@
     <g id="bmp00122" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-5">
             <g id="Group" transform="translate(1.000000, 1.000000)" fill="#FF9000">
-                <rect id="Rectangle" x="0" y="0" width="24" height="11"></rect>
-                <rect id="Rectangle" x="25" y="13" width="24" height="11"></rect>
-                <rect id="Rectangle" x="49" y="26" width="24" height="11"></rect>
+                <rect id="Rectangle" x="0" y="0" width="24" height="11" rx="1"></rect>
+                <rect id="Rectangle" x="25" y="13" width="24" height="11" rx="1"></rect>
+                <rect id="Rectangle" x="49" y="26" width="24" height="11" rx="1"></rect>
             </g>
             <g id="Group-2" transform="translate(11.000000, 4.000000)"></g>
             <g id="Group-2" transform="translate(11.000000, 17.000000)"></g>

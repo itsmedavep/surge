@@ -30,8 +30,8 @@
                 <rect stroke="#0F0F0F" stroke-width="1" stroke-linejoin="square" fill="#242424" fill-rule="evenodd" x="0.5" y="0.5" width="50" height="26" rx="2"></rect>
             </g>
         </g>
-        <rect id="Rectangle" fill="#FF9A10" x="4" y="4" width="18" height="19" rx="2"></rect>
-        <rect id="Rectangle" fill="#FF9A10" x="29" y="31" width="18" height="19" rx="2"></rect>
+        <rect id="Rectangle" fill="#FF9A10" x="2" y="2" width="22" height="23" rx="2"></rect>
+        <rect id="Rectangle" fill="#FF9A10" x="27" y="29" width="22" height="23" rx="2"></rect>
         <g id="Group" transform="translate(7.000000, 2.000000)">
             <rect id="Rectangle" fill="#0F0F0F" x="18" y="0" width="1" height="23"></rect>
             <path d="M0.978027344,17 L5.1015625,6.26269531 L6.63232422,6.26269531 L11.0268555,17 L9.40820312,17 L8.15576172,13.7480469 L3.66601562,13.7480469 L2.48681641,17 L0.978027344,17 Z M4.07617188,12.5908203 L7.71630859,12.5908203 L6.59570312,9.6171875 C6.25390454,8.71386267 6.00000083,7.97168259 5.83398438,7.390625 C5.69726494,8.079105 5.50439578,8.76269192 5.25537109,9.44140625 L4.07617188,12.5908203 Z" id="A" fill="#000000"></path>

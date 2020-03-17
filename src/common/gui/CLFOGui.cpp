@@ -339,11 +339,17 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
                tf.transform(mps);
                tf.transform(vruleS);
                tf.transform(vruleE);
-               dc->setFrameColor(col_label_light_gray);
+                
+//             LFO Ruler Tick Color
+               dc->setFrameColor(col_surge_primary);
+                
                dc->setLineWidth(1.0);
                dc->drawLine(sp,ep);
                dc->setLineWidth(1.0);
-               dc->setFrameColor(VSTGUI::CColor(0xE0, 0x80, 0x00));
+                
+//             When Showing Beats Vertical line in LFO waveform
+               dc->setFrameColor(col_surge_primary);
+                
                // dc->drawLine(mps,mp); // this draws the hat on the bar which I decided to skip
                dc->drawLine(vruleS, vruleE );
 
@@ -364,9 +370,9 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
                tf.transform(ep);
                dc->setLineWidth(0.5);
                if( l % tsNum == 0 )
-                  dc->setFrameColor(col_label_light_gray );
+                  dc->setFrameColor(col_surge_primary );
                else
-                  dc->setFrameColor(col_label_light_gray );
+                  dc->setFrameColor(col_surge_primary );
                dc->drawLine(sp,ep);
             }
          }
@@ -386,11 +392,13 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
       dc->setDrawMode(VSTGUI::kAntiAliasing);
 
       dc->setLineWidth(1.0);
-      dc->setFrameColor(col_label_light_gray);
+//    Getting ruler tick color
+      dc->setFrameColor(col_surge_primary);
       dc->drawLine(mid0, mid1);
       
       dc->setLineWidth(1.0);
-      dc->setFrameColor(col_label_light_gray);
+//    Getting ruler tick color
+      dc->setFrameColor(col_surge_primary);
       dc->drawLine(top0, top1);
       dc->drawLine(bot0, bot1);
 
@@ -400,7 +408,8 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
 #else
       dc->setLineWidth(1.0);
 #endif
-      dc->setFrameColor(col_label_light_gray);
+//    Drawing LFO wave frame upper and lower bounds.
+      dc->setFrameColor(col_surge_primary);
       dc->drawGraphicsPath(eupath, VSTGUI::CDrawContext::PathDrawMode::kPathStroked, &tfpath );
       dc->drawGraphicsPath(edpath, VSTGUI::CDrawContext::PathDrawMode::kPathStroked, &tfpath );
 
@@ -409,6 +418,7 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
 #else
       dc->setLineWidth(1.3);
 #endif
+//       This bad boy right here draws the LFO wave
       dc->setFrameColor(col_label_light_gray);
       dc->drawGraphicsPath(path, VSTGUI::CDrawContext::PathDrawMode::kPathStroked, &tfpath );
 
@@ -701,20 +711,23 @@ void CLFOGui::drawStepSeq(VSTGUI::CDrawContext *dc, VSTGUI::CRect &maindisp, VST
 #else
 #define PIX_COL( a, b ) a
 #endif
-   // Step Sequencer Colors. Remember mac is 0xRRGGBBAA and mac is 0xAABBGGRR
+   // Step Sequencer Colors. Remember mac is 0xRRGGBBAA and win is 0xAABBGGRR
+//    first color has alpha first. second color has alpha at end. WTF this is red = (0x0000ff00) 0055A7 0xA75500ff
 
    int cgray = PIX_COL( 0xff97989a, 0x9a9897ff );
-   int stepMarker = PIX_COL( 0xFF123463, 0x633412FF);
+   int stepMarker = PIX_COL( 0xFF123463, 0x008Affff);
    int disStepMarker = PIX_COL( 0xffccccee, 0xeeccccff);
-   int loopRegionLo = PIX_COL( 0xff9abfe0, 0xe0bf9aff);
-   int loopRegionHi = PIX_COL( 0xffa9d0ef, 0xefd0a9ff );
-   int loopRegionClick = PIX_COL( 0xffb9e0ff, 0xffe0b9ff );
-   int shadowcol = PIX_COL( 0xff6d6d7d, 0x7d6d6dff );
+   int loopRegionLo = PIX_COL( 0xff9abfe0, 0x252525ff);
+   int loopRegionHi = PIX_COL( 0xffa9d0ef, 0x3c3c3cff );
+   int loopRegionClick = PIX_COL( 0xffb9e0ff, 0x000000ff );
+    
+//    lines
+   int shadowcol = PIX_COL( 0x006d6d7d, 0x202020ff );
 
-   int noLoopHi = PIX_COL( 0xffdfdfdf, 0xdfdfdfff );
-   int noLoopLo = PIX_COL( 0xffcfcfcf, 0xcfcfcfff );
-   int grabMarker = PIX_COL( 0xff123463, 0x633412ff );
-   int grabMarkerHi = PIX_COL( 0xff325483, 0x835432ff ); 
+   int noLoopHi = PIX_COL( 0xffdfdfdf, 0xA75500ff );
+   int noLoopLo = PIX_COL( 0xffcfcfcf, 0xA75500ff );
+   int grabMarker = PIX_COL( 0xff123463, 0x000000ff );
+   int grabMarkerHi = PIX_COL( 0xff325483, 0x000000ff );
    // But leave non-mac unch
        
    for (int i = 0; i < n_stepseqsteps; i++)
@@ -830,18 +843,21 @@ void CLFOGui::drawStepSeq(VSTGUI::CDrawContext *dc, VSTGUI::CRect &maindisp, VST
    ss_shift_left.right = ss_shift_left.left + 12;
    ss_shift_left.bottom = ss_shift_left.top + 34;
 
-   dc->setFillColor(VSTGUI::CColor(0x5d,0x5d,0x5d,0xff));
+//    lfo button thumbs
+   dc->setFillColor(col_status_button_ol);
    dc->drawRect(ss_shift_left, kDrawFilled);
    ss_shift_left.inset(1, 1);
    ss_shift_left.bottom = ss_shift_left.top + 16;
 
-   dc->setFillColor(VSTGUI::CColor(0x97,0x98,0x9a,0xff));
+//    lfo buttons
+   dc->setFillColor(col_status_button_bg);
    dc->drawRect(ss_shift_left, kDrawFilled);
    drawtri(ss_shift_left, dc, -1);
 
    ss_shift_right = ss_shift_left;
    ss_shift_right.offset(0, 16);
-   dc->setFillColor(VSTGUI::CColor(0x97,0x98,0x9a,0xff));
+//    lfo buttons
+   dc->setFillColor(col_status_button_bg);
    dc->drawRect(ss_shift_right, kDrawFilled);
    drawtri(ss_shift_right, dc, 1);
    // ss_shift_left,ss_shift_right;

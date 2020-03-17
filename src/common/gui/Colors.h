@@ -81,6 +81,8 @@ const VSTGUI::CColor col_ctrl_selected = col_shade1_std;
 // Dave Colors
 const VSTGUI::CColor col_label_light_gray = VSTGUI::CColor(180, 180, 180, 255);
 const VSTGUI::CColor col_mod_range = VSTGUI::CColor(255, 191, 0, 255);
+const VSTGUI::CColor col_surge_primary = VSTGUI::CColor(255, 144, 00, 255);
+const VSTGUI::CColor col_surge_secondary = VSTGUI::CColor(0, 85, 167, 255);
 
 // Status button colors
 const VSTGUI::CColor col_status_button_ol = VSTGUI::CColor(15, 15, 15, 255);
@@ -90,6 +92,7 @@ const VSTGUI::CColor col_status_button_hl = VSTGUI::CColor(255, 144, 0, 255);
 // VU colors
 const VSTGUI::CColor col_vu_meter_stero_divider = VSTGUI::CColor(32, 32, 32, 255);
 const VSTGUI::CColor col_vu_meter_border = VSTGUI::CColor(15, 15, 15, 255);
+const VSTGUI::CColor col_vu_meter_noclip = VSTGUI::CColor(0, 85, 176, 255);
 
 //FX pannel colors
 const VSTGUI::CColor col_fx_panel_hrule = VSTGUI::CColor(94, 94, 94, 255);

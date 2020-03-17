@@ -50,7 +50,8 @@ void CSurgeVuMeter::setValueR(float f)
 
 void CSurgeVuMeter::draw(CDrawContext* dc)
 {
-   const CColor vugreen = {5, 201, 13, 255};
+//The VU Meter background color when everyting is OK
+   const CColor vugreen = col_vu_meter_noclip;
    CRect size = getViewSize();
    CRect lbox(size);
 
