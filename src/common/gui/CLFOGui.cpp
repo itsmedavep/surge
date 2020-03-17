@@ -88,7 +88,9 @@ void CLFOGui::drawVectorized(CDrawContext* dc)
       // In the bitmap version this has been done for the global; so pull it out of the function
       cdisurf->begin();
 #if MAC
-      cdisurf->clear(0x0090ffff);
+       
+//       frame from the LFO waveform
+      cdisurf->clear(0x050505ff);
 #else
       cdisurf->clear(0xffff9000);
 #endif
@@ -717,17 +719,17 @@ void CLFOGui::drawStepSeq(VSTGUI::CDrawContext *dc, VSTGUI::CRect &maindisp, VST
    int cgray = PIX_COL( 0xff97989a, 0x9a9897ff );
    int stepMarker = PIX_COL( 0xFF123463, 0x008Affff);
    int disStepMarker = PIX_COL( 0xffccccee, 0xeeccccff);
-   int loopRegionLo = PIX_COL( 0xff9abfe0, 0x252525ff);
-   int loopRegionHi = PIX_COL( 0xffa9d0ef, 0x3c3c3cff );
+   int loopRegionLo = PIX_COL( 0xff9abfe0, 0x151515ff);
+   int loopRegionHi = PIX_COL( 0xffa9d0ef, 0x202020ff );
    int loopRegionClick = PIX_COL( 0xffb9e0ff, 0x000000ff );
     
 //    lines
-   int shadowcol = PIX_COL( 0x006d6d7d, 0x202020ff );
+   int shadowcol = PIX_COL( 0x006d6d7d, 0x050505ff );
 
-   int noLoopHi = PIX_COL( 0xffdfdfdf, 0xA75500ff );
-   int noLoopLo = PIX_COL( 0xffcfcfcf, 0xA75500ff );
-   int grabMarker = PIX_COL( 0xff123463, 0x000000ff );
-   int grabMarkerHi = PIX_COL( 0xff325483, 0x000000ff );
+   int noLoopHi = PIX_COL( 0xffdfdfdf, 0x3c3c3cff );
+   int noLoopLo = PIX_COL( 0xffcfcfcf, 0x3c3c3cff );
+   int grabMarker = PIX_COL( 0xff123463, 0xB4B4B4ff );
+   int grabMarkerHi = PIX_COL( 0xff325483, 0xB4B4B4ff );
    // But leave non-mac unch
        
    for (int i = 0; i < n_stepseqsteps; i++)
